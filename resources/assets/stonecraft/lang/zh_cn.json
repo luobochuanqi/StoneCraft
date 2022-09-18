@@ -1,0 +1,16 @@
+{
+  "item.stonecraft.granite_sword": "花岗岩剑",
+  "item.stonecraft.granite_shovel": "花岗岩锹",
+  "item.stonecraft.granite_pickaxe": "花岗岩镐",
+  "item.stonecraft.granite_axe": "花岗岩斧",
+  "item.stonecraft.granite_hoe": "花岗岩锄",
+
+  "item.stonecraft.golden_granite_sword": "镶金花岗岩剑",
+  "item.stonecraft.golden_granite_shovel": "镶金花岗岩锹",
+  "item.stonecraft.golden_granite_pickaxe": "镶金花岗岩镐",
+  "item.stonecraft.golden_granite_axe": "镶金花岗岩斧",
+  "item.stonecraft.golden_granite_hoe": "镶金花岗岩锄",
+
+  "item.stonecraft.granite_debris": "花岗岩碎片",
+  "itemGroup.stone_craft_item": "石头工艺"
+}

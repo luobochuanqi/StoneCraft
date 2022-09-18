@@ -1,0 +1,16 @@
+{
+  "item.stonecraft.granite_sword": "Granite Sword",
+  "item.stonecraft.granite_shovel": "Granite Shovel",
+  "item.stonecraft.granite_pickaxe": "Granite Pickaxe",
+  "item.stonecraft.granite_axe": "Granite Axe",
+  "item.stonecraft.granite_hoe": "Granite Hoe",
+
+  "item.stonecraft.golden_granite_sword": "Gold Granite Sword",
+  "item.stonecraft.golden_granite_shovel": "Gold Granite Shovel",
+  "item.stonecraft.golden_granite_pickaxe": "Gold Granite Pickaxe",
+  "item.stonecraft.golden_granite_axe": "Gold Granite Axe",
+  "item.stonecraft.golden_granite_hoe": "Gold Granite Hoe",
+
+  "item.stonecraft.granite_debris": "Granite Debris",
+  "itemGroup.stone_craft_item": "Stone Craft"
+}
