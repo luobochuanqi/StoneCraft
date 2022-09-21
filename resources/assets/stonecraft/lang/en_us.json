@@ -11,6 +11,8 @@
   "item.stonecraft.golden_granite_axe": "Gold Granite Axe",
   "item.stonecraft.golden_granite_hoe": "Gold Granite Hoe",
 
+  "item.stonecraft.golden_granite_sword.tooltip": "It seems easier to enchant with gold...",
+
   "item.stonecraft.granite_debris": "Granite Debris",
   "itemGroup.stone_craft_item": "Stone Craft"
 }

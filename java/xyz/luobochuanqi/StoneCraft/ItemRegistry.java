@@ -24,5 +24,8 @@ public class ItemRegistry {
     public static final RegistryObject<Item> GoldenGranitePickaxe = ITEMS.register("golden_granite_pickaxe", GoldenGranitePickaxe::new);
     public static final RegistryObject<Item> GoldenGraniteAxe = ITEMS.register("golden_granite_axe", GoldenGraniteAxe::new);
     public static final RegistryObject<Item> GoldenGraniteHoe = ITEMS.register("golden_granite_hoe", GoldenGraniteHoe::new);
+
+    public static final RegistryObject<Item> GraniteApple = ITEMS.register("granite_apple",
+            () -> new StoneFood(StoneFood.FoodType.APPLE));
 }
 

@@ -11,6 +11,8 @@
   "item.stonecraft.golden_granite_axe": "镶金花岗岩斧",
   "item.stonecraft.golden_granite_hoe": "镶金花岗岩锄",
 
+  "item.stonecraft.golden_granite_sword.tooltip": "镶金之后似乎与魔力更亲和...",
+
   "item.stonecraft.granite_debris": "花岗岩碎片",
   "itemGroup.stone_craft_item": "石头工艺"
 }

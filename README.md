@@ -1,2 +1,5 @@
 # StoneCraft
-A Minecraft Mod About Stones
+## 石艺
+    添加了许多关于“石头”的玩法，包括工具、武器、探索等等
+    正在更新......
+ps 寻找一个一起做mod的伙伴，最好会些ps、建模啥的。。
