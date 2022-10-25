@@ -13,9 +13,8 @@ import java.util.function.Supplier;
 @Mod("stonecraft")
 public class StoneCraft {
     public StoneCraft() {
-//        IEventBus modbus = FMLJavaModLoadingContext.get().getModEventBus();
-//        ItemRegistry.ITEMS.register(modbus);
         ItemRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        BlockRegistry.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 }
 

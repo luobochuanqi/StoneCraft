@@ -1,5 +1,6 @@
 package xyz.luobochuanqi.StoneCraft;
 
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -24,8 +25,13 @@ public class ItemRegistry {
     public static final RegistryObject<Item> GoldenGranitePickaxe = ITEMS.register("golden_granite_pickaxe", GoldenGranitePickaxe::new);
     public static final RegistryObject<Item> GoldenGraniteAxe = ITEMS.register("golden_granite_axe", GoldenGraniteAxe::new);
     public static final RegistryObject<Item> GoldenGraniteHoe = ITEMS.register("golden_granite_hoe", GoldenGraniteHoe::new);
-
+    //食物类
     public static final RegistryObject<Item> GraniteApple = ITEMS.register("granite_apple",
             () -> new StoneFood(StoneFood.FoodType.APPLE));
+    public static final RegistryObject<Item> GraniteCarrot = ITEMS.register("granite_carrot",
+            () -> new StoneFood(StoneFood.FoodType.CARROT));
+    //方块物品类
+    public static final RegistryObject<Item> MixedStone = ITEMS.register("mixed_stone", () -> new BlockItem(BlockRegistry.MixedStone.get(), new Item.Properties().tab(ModGroup.StoneCraftGroup)));
+
 }
 
