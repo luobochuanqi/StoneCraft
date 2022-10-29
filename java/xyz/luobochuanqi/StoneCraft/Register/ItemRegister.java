@@ -1,15 +1,17 @@
-package xyz.luobochuanqi.StoneCraft;
+package xyz.luobochuanqi.StoneCraft.Register;
 
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import xyz.luobochuanqi.StoneCraft.ModGroup;
+import xyz.luobochuanqi.StoneCraft.Utils;
 import xyz.luobochuanqi.StoneCraft.item.*;
 import xyz.luobochuanqi.StoneCraft.item.GraniteTools.*;
 import xyz.luobochuanqi.StoneCraft.item.GoldenGraniteTools.*;
 
-public class ItemRegistry {
+public class ItemRegister {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Utils.ModId);
 
     public static final RegistryObject<Item> GraniteDebris = ITEMS.register("granite_debris", GraniteDebris::new);
@@ -31,7 +33,14 @@ public class ItemRegistry {
     public static final RegistryObject<Item> GraniteCarrot = ITEMS.register("granite_carrot",
             () -> new StoneFood(StoneFood.FoodType.CARROT));
     //方块物品类
-    public static final RegistryObject<Item> MixedStone = ITEMS.register("mixed_stone", () -> new BlockItem(BlockRegistry.MixedStone.get(), new Item.Properties().tab(ModGroup.StoneCraftGroup)));
-
+    public static final RegistryObject<Item> MixedStone = ITEMS.register("mixed_stone",
+            () -> new BlockItem(BlockRegister.MixedStone.get(), new Item.Properties().tab(ModGroup.StoneCraftGroup)));
+    public static final RegistryObject<Item> StoneCrusher = ITEMS.register("stone_crusher",
+            () -> new BlockItem(BlockRegister.StoneCrusher.get(), new Item.Properties().tab(ModGroup.StoneCraftGroup)));
+    public static final RegistryObject<Item> DreamCrusher = ITEMS.register("dream_crusher",
+            () -> new BlockItem(BlockRegister.DreamCrusher.get(), new Item.Properties().tab(ModGroup.StoneCraftGroup)));
+    //矿石方块物品
+    public static final RegistryObject<Item> SpiriStoneOre = ITEMS.register("spiri_stone_ore",
+            () -> new BlockItem(BlockRegister.SpiriStoneOre.get(), new Item.Properties().tab(ModGroup.StoneCraftGroup)));
 }
 

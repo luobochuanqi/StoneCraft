@@ -19,6 +19,8 @@
   "item.stonecraft.food.apple.tooltip": "充饥“石”粮！很硌牙",
   "item.stonecraft.food.carrot.tooltip": "充饥“石”粮！很硌牙",
 
+  "item.stonecraft.mixed_stone": "混合石",
+
   "item.stonecraft.granite_debris": "花岗岩碎片",
   "itemGroup.stone_craft_item": "石头工艺"
 }

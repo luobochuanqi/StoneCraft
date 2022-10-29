@@ -19,6 +19,11 @@
   "item.stonecraft.food.apple.tooltip": "An apple made of stone!!",
   "item.stonecraft.food.carrot.tooltip": "A carrot made of stone!!",
 
+  "item.stonecraft.mixed_stone": "Mixed Stone",
+
   "item.stonecraft.granite_debris": "Granite Debris",
-  "itemGroup.stone_craft_item": "Stone Craft"
+  "itemGroup.stone_craft_item": "Stone Craft",
+
+  "machine.stonecraft.stone_crusher": "Stone Crusher",
+  "machine.stonecraft.dream_crusher": "Dream Crusher"
 }
