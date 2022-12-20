@@ -2,8 +2,8 @@ package xyz.luobochuanqi.StoneCraft.item.GraniteTools;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.PickaxeItem;
-import xyz.luobochuanqi.StoneCraft.ModGroup;
-import xyz.luobochuanqi.StoneCraft.ModTier;
+import xyz.luobochuanqi.StoneCraft.ModUtils.ModGroup;
+import xyz.luobochuanqi.StoneCraft.ModUtils.ModTier;
 
 public class GranitePickaxe extends PickaxeItem {
     public GranitePickaxe() {

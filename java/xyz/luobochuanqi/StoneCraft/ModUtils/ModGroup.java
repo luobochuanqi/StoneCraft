@@ -1,4 +1,4 @@
-package xyz.luobochuanqi.StoneCraft;
+package xyz.luobochuanqi.StoneCraft.ModUtils;
 
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;

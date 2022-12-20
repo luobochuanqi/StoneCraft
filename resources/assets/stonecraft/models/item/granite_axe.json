@@ -2,5 +2,26 @@
   "parent": "item/generated",
   "textures": {
     "layer0": "stonecraft:item/granite_axe"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [0, -90, 35],
+      "translation": [0, 2.5, 2.5]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [0, 90, -35],
+      "translation": [0, 2.5, 2.5]
+    },
+    "firstperson_righthand": {
+      "rotation": [0, -90, 35],
+      "translation": [0, 2.5, 2.5]
+    },
+    "firstperson_lefthand": {
+      "rotation": [0, 90, -35],
+      "translation": [0, 2.5, 2.5]
+    },
+    "fixed": {
+      "rotation": [0, -180, 0]
+    }
   }
 }

@@ -9,8 +9,8 @@ import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.Nullable;
-import xyz.luobochuanqi.StoneCraft.ModGroup;
-import xyz.luobochuanqi.StoneCraft.ModTier;
+import xyz.luobochuanqi.StoneCraft.ModUtils.ModGroup;
+import xyz.luobochuanqi.StoneCraft.ModUtils.ModTier;
 
 import java.util.List;
 

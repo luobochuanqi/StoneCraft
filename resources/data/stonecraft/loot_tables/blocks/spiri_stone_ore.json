@@ -8,6 +8,19 @@
           "type": "minecraft:item",
           "name": "stonecraft:granite_debris"
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "iron_pickaxe",
+              "diamond_pickaxe",
+              "golden_pickaxe",
+              "stonecraft:golden_granite_pickaxe"
+            ]
+          }
+        }
       ]
     }
   ]
